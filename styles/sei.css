@@ -1,0 +1,65 @@
+/* Layout */
+
+#CONCLUSIONI{
+    font-size:var(--fontbase);
+    line-height:1em;
+    margin-left:10%;
+    overflow-x: hidden;
+
+}
+
+.scatola{
+    margin-top:100vh;
+    margin-right:10%;
+
+}
+
+.nero{
+    color: black;
+}
+
+.statico{
+    display: inline-block;
+    margin:0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
+.movimento_conclusioni{
+    /* border:1px solid red; */
+    position:relative;
+    display: inline-block;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: rgb(253, 70, 217);
+
+}
+
+.movimento_conclusioni::after{
+    content:"";
+    border-left:6px solid rgb(0, 0, 0);
+    position:absolute;
+    background-color: white;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    animation: tastiera 3s steps(9) infinite forwards;
+
+}
+
+@keyframes tastiera{
+    0%{
+        left:0;
+    }
+
+    50%{
+        left: 100%;
+    }
+
+    100%{
+        right:0;
+        left: 100%;
+
+    }
+} 

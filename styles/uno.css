@@ -1,0 +1,14 @@
+/* Layout */
+
+#COSA{
+    font-size:var(--fontbase);
+    line-height:1em;
+    margin-left:10%;
+}
+
+
+/* Specifiche */
+
+mark.pink{background-color:rgb(253, 70, 217);
+    padding:0 0.5vw;
+}

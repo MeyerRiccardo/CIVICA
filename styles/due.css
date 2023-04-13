@@ -1,0 +1,64 @@
+/* Layout */
+
+#COME{
+  font-size:var(--fontbase);
+  line-height:1em;
+  margin-left:10%;
+}
+
+#alternative{
+  font-family: 'Roboto Slab', serif;
+  font-size:1rem;
+  margin-left:1em;
+  margin-right:15%;
+}
+
+
+/* Utilities */
+li span[data-descr]:focus::after,
+li span[data-descr]:hover::after {
+  content: attr(data-descr);
+  width:50vw;
+  min-width: 150px;
+  position: absolute;
+  left: 0;
+  top: var(--fontbase);
+  padding: 1em 2em;
+  border: 3px #010101 solid;
+  border-radius: 10px;
+  background-color: #2803df;
+  color: #ffffff;
+  font-size: 0.8em;
+  z-index: 1;
+}
+
+
+li span[data-descr] {
+  position: relative;
+  cursor: help;
+}
+
+
+
+/* Specifiche */
+
+li span[data-descr~="emendamento"]:focus::before,
+li span[data-descr~="emendamento"]:hover::before {
+    content: "ATTENZIONE!";
+    width:25vw;
+    min-width:400px;
+    position: absolute;
+    left: 0;
+    bottom: var(--fontbase);
+    padding: 0.5em 1em;
+    border: 3px #010101 solid;
+    border-radius: 10px;
+    background-color: #df0303;
+    color: #ffffff;
+    font-size: 1em;
+    z-index: 1;
+    text-align: center;
+  } 
+
+
+

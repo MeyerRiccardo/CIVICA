@@ -1,0 +1,37 @@
+/* Layout */
+
+#TEMATICHE{
+    font-size:var(--fontbase);
+    line-height:1em;
+    margin-left:10%;
+}
+
+
+#TEMATICHE ul{
+    font-family: 'Alkatra', cursive;
+}
+
+#TEMATICHE .pro{
+    color:green;
+}
+
+#TEMATICHE .contro{
+    color:red;
+}
+
+
+#TEMATICHE summary[data-descr*="pro"]::after,
+details[open] summary[data-descr*="pro"]::after {
+    content: ' ✅ ';
+    margin-left:5%;
+    color:green;
+    background: url(/images/back.png);
+  }
+
+#TEMATICHE summary[data-descr*="contro"]::after,
+details[open] summary[data-descr*="contro"]::after {
+    content: ' ❌ ';
+    margin-left:5%;
+    color:red;
+  }
+

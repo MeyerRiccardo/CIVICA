@@ -1,0 +1,118 @@
+
+/* Elementi */
+
+fieldset input{
+    width:5vh;
+    border:3px solid blue;
+    border-radius: 75%;
+    color:blue;
+    font-size:50%;
+    text-align:center;
+}
+
+fieldset input:hover,
+fieldset input:focus{
+    transform: scale(1.5);
+    border-color: rgb(0, 184, 245);
+    color:rgb(0, 184, 245);
+    cursor: pointer;
+}
+
+
+
+
+/* Layout */
+
+#ARGOMENTI{
+        font-size:var(--fontbase);
+        line-height:1em;
+        margin-left:10%;
+        margin-right:10%;
+}
+
+#ARGOMENTI blockquote{
+    font-size:50%;
+}
+
+#ARGOMENTI .pro{
+    color: green;
+}
+
+#ARGOMENTI .contro{
+    color:red;
+    text-align:right;
+}
+
+#ARGOMENTI a:link{
+    text-decoration:none;
+}
+
+#ARGOMENTI a:visited{
+    color: blue;
+}
+
+#ARGOMENTI a:hover{
+    color:rgb(0, 184, 245);
+}
+
+#ARGOMENTI a:active{
+    color:rgb(0, 184, 245);
+}
+
+.immagine{
+    width:9vh;
+    height:18vh;
+    vertical-align: middle;
+}
+
+.testo{
+    width:50vw;
+}
+
+#ARGOMENTI table p.description{
+    font-size:40%;
+    padding:0 8%;
+}
+
+#ARGOMENTI table{
+    border:3px solid grey;
+    border-radius:15px;
+}
+
+
+#ARGOMENTI legend h4{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+/* Utilities */
+
+#table0101{
+    display: none;
+}
+
+#table0102{
+    display: none;
+}
+
+#info0101:hover + #table0101,
+#info0101:focus + #table0101{
+    display: block;
+    position:absolute;
+    z-index:1;
+    background-color: white;
+}
+
+#info0102:hover + #table0102,
+ #info0102:focus + #table0102{
+    display: block;
+    position:absolute;
+    z-index:1;
+    background-color: white;
+}
+
+

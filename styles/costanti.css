@@ -1,0 +1,30 @@
+:root{
+    /* variabili per adattività font */
+    --fontbase:5vh;
+    --fontbody:2.5vh;
+
+    /* variabili per immagini bandiere post-nome nazione */
+    --francia:url('../images/paesi/france.png');
+    --portogallo:url('../images/paesi/portugal.png');
+    --belgio:url('../images/paesi/belgium.png');
+    --spagna:url('../images/paesi/spain.png');
+    --polonia:url('../images/paesi/poland.png');
+    --lussemburgo:url('../images/paesi/luxembourg.png');
+    --grecia:url('../images/paesi/greece.png');
+    --irlanda:url('../images/paesi/ireland.png');
+    --slovenia:url('../images/paesi/slovenia.png');
+    --svezia:url('../images/paesi/sweden.png');
+    --islanda:url('../images/paesi/iceland.png');
+    --norvegia:url('../images/paesi/norway.png');
+    --olanda:url('../images/paesi/netherlands.png');
+    --uk:url('../images/paesi/uk.png');
+    --germania:url('../images/paesi/germany.png');
+    --danimarca:url('../images/paesi/denmark.png');
+    --finlandia:url('../images/paesi/finland.png');    
+    --lituania:url('../images/paesi/lithuania.png');
+    --bulgaria:url('../images/paesi/bulgaria.png');
+    --estonia:url('../images/paesi/estonia.png');
+    --liechtenstein:url('../images/paesi/liechtenstein.png');
+
+
+}

@@ -1,0 +1,332 @@
+/* Elements */
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+
+
+/* Layout */
+
+#ANALISI{
+    font-size:var(--fontbase);
+    line-height:1em;
+    margin-left:10%;
+    margin-top: 10%;
+    margin-right:15%;
+    color:white;
+}
+
+#ANALISI .description{
+    color:white;
+}
+
+#EUROPA{
+    font-size:var(--fontbase);
+    line-height:1em;
+    margin-left:10%;
+}
+
+.contenitore{
+    border:6px solid rgb(253, 70, 217);
+}
+
+#EUROPA span[data-descr*="paese"]{
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+span[data-descr*="paragrafo"]::before{
+    content: '';
+    display: block;
+    margin-top:4%;
+    margin-bottom:1%;
+    border:3px solid black;
+}
+
+
+/* Utilities */
+
+
+
+
+
+
+/* Specifiche */
+
+span[data-descr*="Francia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--francia);
+    background-size: cover;
+}
+
+/* another one */
+span[data-descr*="Portogallo"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--portogallo);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Belgio"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--belgio);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Spagna"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--spagna);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Polonia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--polonia);
+    background-size: cover;
+}
+    /* another one */
+span[data-descr*="Lussemburgo"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--lussemburgo);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Grecia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--grecia);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Irlanda"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--irlanda);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Slovenia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--slovenia);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Svezia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--svezia);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Islanda"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--islanda);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Norvegia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--norvegia);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Olanda"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--olanda);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Uk"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--uk);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Germania"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--germania);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Danimarca"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--danimarca);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Finlandia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--finlandia);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Lituania"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--lituania);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Bulgaria"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--bulgaria);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Estonia"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--estonia);
+    background-size: cover;
+}
+/* another one */
+span[data-descr*="Liechtenstein"]::after{
+    content: '';
+    display: inline-block;
+    width: 3vh;
+    height: 3vh;
+    margin:0;
+    margin-left:1%;
+    margin-right: 0.5%;
+    vertical-align: middle;
+    background-image: var(--liechtenstein);
+    background-size: cover;
+}
